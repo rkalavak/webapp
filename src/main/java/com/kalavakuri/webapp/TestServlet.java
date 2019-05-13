@@ -29,7 +29,7 @@ public class TestServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		TestServletService service = new TestServletService();
-		service.print1();
+		service.print2();
 	}
 
 }

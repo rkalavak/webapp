@@ -34,7 +34,7 @@ public class TestServlet extends HttpServlet {
 		
 		logger.info("Test servlet getting called");
 		TestServletService service = new TestServletService();
-		service.print1();
+		service.print2();
 	}
 
 }
